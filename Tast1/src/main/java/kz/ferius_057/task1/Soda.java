@@ -14,8 +14,8 @@ public class Soda {
     String supplement;
 
     public void showMyDrink() {
-        if (supplement == null || supplement.isEmpty()) {
-            System.out.println("Обычная газировка");
-        } else System.out.println("Газировка и " + supplement);
+        System.out.println((supplement == null || supplement.isEmpty())
+                ? "Обычная газировка"
+                : "Газировка и " + supplement);
     }
 }
