@@ -9,7 +9,7 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>Tast1</module>
+        <module>Task1</module>
         <module>Task2</module>
     </modules>
 
