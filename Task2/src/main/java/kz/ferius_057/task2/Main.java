@@ -14,8 +14,8 @@ import java.nio.file.Paths;
  */
 public class Main {
     public static void main(String[] args) throws IOException {
-        String fileName = "article.txt";
-        int linesToRead = 234;
+        val fileName = "article.txt";
+        val linesToRead = 234;
 
         readLast(linesToRead, Paths.get(fileName).toFile());
     }
